@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+flask
+sqlalchemy
+dbt-core 
+dbt-sqlite
+pandas

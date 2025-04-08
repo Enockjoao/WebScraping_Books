@@ -15,5 +15,5 @@ class BookingDB(Base):
 engine = create_engine('sqlite:///../database/BookingDB.db')
 Base.metadata.create_all(engine)
 
-Session = sessionmaker(bind=engine)
+Session = sessionmaker(bind=engine) 
 
